@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restaurantapp
-          image: chrislain/fs-restaurant-service:latest
+          image: chrislain/fs-restaurant-service:7
           imagePullPolicy: Always
           ports:
             - containerPort: 9093
